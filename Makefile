@@ -7,8 +7,6 @@ SRCS   = src/main.cpp
 OBJS   = $(subst .cpp,.o,$(SRCS))
 TARGET = axerig2
 
-#default: all
-
 all: $(TARGET)
 
 .cpp.o:
