@@ -1,0 +1,10 @@
+build*.sh
+*.out
+*.o
+callgrind.out.*
+axerig2.config
+axerig2.creator*
+axerig2.files
+axerig2.includes
+*.autosave
+axerig2

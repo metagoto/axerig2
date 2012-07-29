@@ -1,0 +1,22 @@
+{
+  // Rig Kontrol 2 input device
+  "rig_device": "/dev/input/by-path/pci-0000:00:1a.0-usb-0:1.1-event",
+
+  // Axe-Fx midi port
+  "axe_midi": {
+    "port": "AXE-FX II",
+    "channel": 0
+  },
+
+  // foot switch
+  "switch": {
+    "1": { "cc": 121 },// looper undo
+    "2": { "cc": 32 }, // looper reverse
+    "3": { "cc": 30, "toggle": true }, // looper once
+    "4": { "cc": 28 }, // looper record
+    "5": { "cc": 29, "toggle": true }, // looper play
+    "6": { "cc": 31 }, // looper dub
+    "7": { "cc": 122, "toggle": true }, // metro // 120 looper half
+    "pedal": { "cc": 17 } // external controller 2
+  }
+}
